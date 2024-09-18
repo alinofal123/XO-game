@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XO GAME</title>
+  </head>
+  <style>
+    body {
+      background-color: cadetblue;
+    }
+    .game {
+      padding-top: 100px;
+      width: 255px;
+      text-align: center;
+      margin: auto;
+      color: white;
+    }
+    .title {
+      background-color: blueviolet;
+      color: white;
+      margin: 5px 0;
+      padding: 5px 0;
+    }
+    span {
+      color: tomato;
+    }
+    .squears {
+      width: 80px;
+      height: 80px;
+      background-color: blueviolet;
+      float: left;
+      margin: 2px;
+      font-size: 50px;
+      font-family: cursive;
+    }
+    .squears:hover {
+      background-color: brown;
+      cursor: pointer;
+    }
+    footer {
+      margin-top: 500px;
+      margin-left: 20px;
+    }
+  </style>
+  <body>
+    <div class="game">
+      <div class="title"><span>X O</span> GAME</div>
+      <div class="squears" id="item1" onclick="game(this.id)"></div>
+      <div class="squears" id="item2" onclick="game(this.id)"></div>
+      <div class="squears" id="item3" onclick="game(this.id)"></div>
+
+      <div class="squears" id="item4" onclick="game(this.id)"></div>
+      <div class="squears" id="item5" onclick="game(this.id)"></div>
+      <div class="squears" id="item6" onclick="game(this.id)"></div>
+
+      <div class="squears" id="item7" onclick="game(this.id)"></div>
+      <div class="squears" id="item8" onclick="game(this.id)"></div>
+      <div class="squears" id="item9" onclick="game(this.id)"></div>
+    </div>
+
+    <footer>Made By: Ali Nofal &copy;</footer>
+    <script src="main.js"></script>
+  </body>
+</html>
